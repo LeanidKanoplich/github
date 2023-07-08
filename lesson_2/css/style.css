@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+p {
+    /* border: 1px dashed green; */
+    /* border-width: 1px;
+    border-color: green;
+    border-style: dashed; */
+    
+    /* margin: 20px;
+    padding: 20px; */
+
+    /* margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px; */
+
+    /* top rigth bottom left */
+    /* margin: 20px 40px 40px 40px; */
+    /* top (right left) bottom */
+    /* margin: 20px 40px 40px; */
+    /* (top bottom) (right left) */
+    /* margin: 20px 40px; */
+    /* (top rigth bottom left) */
+    /* margin: 20px; */
+
+    /* top rigth bottom left */
+    /* padding: 20px 40px 40px 40px; */
+    /* top (right left) bottom */
+    /* padding: 20px 40px 40px; */
+    /* (top bottom) (right left) */
+    /* padding: 20px 40px; */
+    /* (top rigth bottom left) */
+    /* padding: 20px; */
+}
+
+h1 {
+   text-align: center; 
+   margin-bottom: 15px;
+}
+
+.post h2 {
+    text-align: center; 
+}
+
+.post img {
+    width: 300px;
+}
+
+.post {
+    border: 1px solid red;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 15px;
+    background-color: beige;
+}
+
+.container-3 {
+    background-color: aquamarine;
+}
+
+.container-3 p {
+    color: green;
+}
+
+.social-links a {
+    /* Меняем тип элемента на блочный */
+    /* блочный - block */
+    /* строчный - inline */
+    display: block;
+    width: 50px;
+}

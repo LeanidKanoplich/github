@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- 
+        https://tel-ran.de/?city=berlin&course=frontend
+        city=berlin
+        course=frontend
+
+        http://127.0.0.1:5500/lesson_7/?username=John
+        http://127.0.0.1:5500/lesson_7/?firstname=John&lastname=Dow
+
+        http://127.0.0.1:5500/lesson_7/?
+        firstname=John&
+        lastname=Dow&
+        about_me=About+me&
+        profession=designer
+
+        http://127.0.0.1:5500/lesson_7/?firstname=&lastname=&about_me=& 
+        tea=on
+        coffee=on
+
+        http://127.0.0.1:5500/lesson_7/?firstname=&lastname=&about_me=&drink=on
+        http://127.0.0.1:5500/lesson_7/?firstname=&lastname=&about_me=&drink=coffee
+    -->
+
+    <!-- 
+        action = url server app
+        method = get || post
+     -->
+    <form method="post">
+        <!-- 
+            type = тип элемента input [by default text]
+            name = название поля в гет запросе
+         -->
+        <label for="firstname_input">User firstname</label>
+        <input type="text" name="firstname" placeholder="Firstname..." id="firstname_input">
+
+        <label for="lastname_input">User lastname</label>
+        <input type="text" name="lastname" placeholder="Lastname..." id="lastname_input">
+
+        <label for="about_me">About me</label>
+        <!-- 
+            maxlength = max length
+         -->
+        <textarea name="about_me" id="about_me" cols="15" rows="10" placeholder="Maximum 50 words"></textarea>
+
+        <select name="profession">
+            <option disabled selected>Select your profession</option>
+            <option value="developer">Developer</option>
+            <option value="manager">Manager</option>
+            <option value="3">Designer</option>
+        </select>
+
+        <div>
+            <label for="beer_checkbox">Пиво</label>
+            <input type="checkbox" name="beer" id="beer_checkbox">
+            <label for="tea_checkbox">Чай</label>
+            <input type="checkbox" name="tea" id="tea_checkbox">
+            <label for="coffee_checkbox">Кофе</label>
+            <input type="checkbox" name="coffee" id="coffee_checkbox">
+        </div>
+
+        <div>
+            <label for="beer_radio">Пиво</label>
+            <input type="radio" name="drink" id="beer_radio" value="beer">
+            <label for="tea_radio">Чай</label>
+            <input type="radio" name="drink" id="tea_radio" value="tea">
+            <label for="coffee_radio">Кофе</label>
+            <input type="radio" name="drink" id="coffee_radio" value="coffee">
+        </div>
+
+        <button>Send</button>
+    </form>
+</body>
+</html>

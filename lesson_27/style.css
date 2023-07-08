@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+curl 'https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1282198690&t=pageview&_s=1&dl=https%3A%2F%2Fwww.monet.lt%2F&ul=ru-ru&de=UTF-8&dt=Buhalterin%C4%97s%20apskaitos%20paslaugos%20nuo%2049%20Eur%2Fm%C4%97n.%20-%20Monet.lt&sd=30-bit&sr=157x784&vp=157x784&je=0&_u=QACAAAABAAAAAC~&jid=1615787979&gjid=824600090&cid=804981098.1688809266&tid=UA-2282313-9&_gid=700092658.1688809266&_r=1&_slc=1&gtm=45He3750n81PN8WBT8&z=1318493992' \
+  -X 'POST' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,et;q=0.6,lt;q=0.5,lv;q=0.4,es;q=0.3' \
+  -H 'cache-control: no-cache' \
+  -H 'content-length: 0' \
+  -H 'content-type: text/plain' \
+  -H 'origin: https://www.monet.lt' \
+  -H 'pragma: no-cache' \
+  -H 'referer: https://www.monet.lt/' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36' \
+  --compressed

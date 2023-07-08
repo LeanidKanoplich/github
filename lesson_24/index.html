@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <!-- <form>
+        <input type="text" placeholder="Username" class="username_input">
+        <button>Submit</button>
+    </form> -->
+    <div class="product_form_container">
+        <form id="product_form">
+            <input type="text" placeholder="Название" class="product_name">
+            <input type="number" placeholder="Цена" class="product_price">
+            <button>Добавить</button>
+        </form>
+    </div>
+    <div class="products-filter">
+        <form id="products_filters_form">
+            <input type="text" placeholder="Название" class="product_search_text">
+            <div>
+        <Label
+            for="product_sort">Отсортировать по:
+        </Label>
+        <select id="product_sort">
+        <option value="">Название</option>
+        <option value="">Цена</option>
+        </select>
+    </div>
+     </form>
+    </div>
+    <div class="products_container">
+        <!-- <div class="product-item">
+            <p>Name</p>
+            <p>Price</p>
+            <div class="remove">X</div>
+           
+        </div> -->
+        <h1>Товаров нет</h1>
+    </div>
+</body>
+<script src="./scripts/script.js"></script>
+</html>
